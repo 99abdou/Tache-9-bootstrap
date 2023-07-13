@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(211, 200, 200);
+}
+
+.title p{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title span{
+    color: brown;
+}
+
+.pics img{
+    width: 85%;
+    height: 70%;
+}
+.nav-item .nav-link{
+    color: rgb(211, 200, 200);
+    font-size: 18px;
+}
+
+/* ---------------------------------
+         SECTION ABOUT
+--------------------------------- */
+#about{ width: 100%; background: #0b0b0b; font-family: 'Roboto', sans-serif; margin-top: 5%;}
+#about .container{ padding-top: 50px; padding-bottom: 50px;}
+.heading{ text-align: center; margin-bottom: 50px; color: rgb(255, 251, 251); font-size: 30px; font-weight: bold;}
+#about .card{ border-radius: 10px;}
+#about .card img{ border-radius: 10px;}
+#about-btn{ width: 200px; height: 36px; background: transparent; color: #b2744c;
+    border-radius: 5px; font-weight: bold; transition: 0.5s; cursor: pointer;}
+#about-btn:hover{ background: #ea070b; color: white;}
+
+@media screen and (max-width:766px){
+    #about p{ font-size: 18px;}
+    /* #about{ height: 110vh;} */
+    #about button{display: flex; margin: auto; align-items: center; justify-content: center;}
+}
+
+/* ---------------------------------
+         SECTION TOP-CARDS
+--------------------------------- */
+.top-cards{ width: 100%; font-family: 'Roboto', sans-serif; margin-top: 5%;}
+.heading2 span{ color: #b2744c;}
+.top-cards .container{ margin-top: 30px; padding-bottom: 50px;}
+.top-cards .card{ border-radius: 10px; transition: 0.5s; cursor: pointer;}
+.top-cards .card img{ border-radius: 10px;}
+.top-cards .card:hover{ transform: translateY(-10px);}
+
+/* ---------------------------------
+         SECTION MENU
+--------------------------------- */
+.menu{ width: 100%; font-family: 'Roboto', sans-serif;}
+#container2{ margin-top: 20px;}
+.menu .card{ background: white; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.star i{ color: #f14c22;}
+.menu h3{ color: #f14c22; margin-top: 10px; font-size: 25px;}
+.menu p{ font-size: 16px; color: #f14c22; padding-top: 10px;}
+.menu p span{ float: right; cursor: pointer;}
+
+/* ----------- testimonials--------------- */
+
+#testimonials{
+    margin: 100px 0;
+} 
+
+.testimonials{
+    border-left: 4px solid #e80a0a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form form input,
+  textarea {
+    width: 400px;
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background: #fff4f3;
+  }
+  .contact-form form textarea {
+    resize: none;
+    height: 200px;
+  }
+  .contact-form form .contact-button {
+    font-weight: 500;
+    color: #fff;
+    background: rgb(239, 49, 49);
+    cursor: pointer;
+  }
+  .contact-form form .contact-button:hover {
+    background: #fc5552;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social a {
+    font-size: 27px;
+    margin: 0.5rem;
+  }
+  .social a .bx {
+    padding: 5px;
+    color: #080808;
+    background: #161616;
+    border-radius: 50%;
+  }
+  .social a .bx:hover {
+    background: red;
+  }
+  .links {
+    margin: 1rem 0 1rem;
+  }
+  .links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(14, 13, 13);
+    padding: 1rem;
+  }
+  .links a:hover {
+    color: red;
+  }
+  .contact p {
+    text-align: center;
+  }
+  
+  .copyright {
+    padding: 20px;
+    text-align: center;
+  }
