@@ -162,3 +162,10 @@
     padding: 20px;
     text-align: center;
   }
+
+  @media (max-width: 415px) {
+    .contact-form form input,
+    textarea {
+      width: auto;
+    }
+  }
